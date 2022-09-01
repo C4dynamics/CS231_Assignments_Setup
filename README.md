@@ -30,7 +30,7 @@ Make it the global version: pyenv global 3.7.13
 
 In the terminal, navigate to the projects folder: cd projects
 
-run: pip install -r requirements.txt (may take some time). 
+Run: pip install -r requirements.txt (may take some time. Notice that this is the file that was linked previously, not the file of the assignment). 
 
 Restart (ctrl+R) 
 
