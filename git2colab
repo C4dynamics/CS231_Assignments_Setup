@@ -2,14 +2,40 @@
   "cells": [
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 1,
       "metadata": {
         "id": "VAeeGIQXGQBw"
       },
       "outputs": [],
       "source": [
-        "!git "
+        "!git config --global user.name \"AI-Dynamics\"\n",
+        "!git config --global user.email \"zivmeri@gmail.com\"\n",
+        "!git config --global user.password \"zit16785\""
       ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "token = \"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\"\n",
+        "username = \"AI-Dynamics\"\n",
+        "repo = \"assignment2\""
+      ],
+      "metadata": {
+        "id": "Xmf5gQDCIPk4"
+      },
+      "execution_count": 2,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!git clone https://{token}@github.com/{username}/{repo}"
+      ],
+      "metadata": {
+        "id": "DiGJ6dgZIw4V"
+      },
+      "execution_count": null,
+      "outputs": []
     }
   ],
   "metadata": {
@@ -31,7 +57,8 @@
       "version": "3.7.3"
     },
     "colab": {
-      "provenance": []
+      "provenance": [],
+      "toc_visible": true
     }
   },
   "nbformat": 4,
