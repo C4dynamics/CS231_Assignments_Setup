@@ -1,6 +1,15 @@
 {
   "cells": [
     {
+      "cell_type": "markdown",
+      "source": [
+        "https://www.youtube.com/watch?v=eLhy3_d2UPo"
+      ],
+      "metadata": {
+        "id": "5gmvXfF3Jhmx"
+      }
+    },
+    {
       "cell_type": "code",
       "execution_count": 1,
       "metadata": {
@@ -32,7 +41,110 @@
         "!git clone https://{token}@github.com/{username}/{repo}"
       ],
       "metadata": {
-        "id": "DiGJ6dgZIw4V"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DiGJ6dgZIw4V",
+        "outputId": "5b161da3-8c33-4eb7-a477-cb48ab8130fb"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Cloning into 'assignment2'...\n",
+            "remote: Enumerating objects: 79, done.\u001b[K\n",
+            "remote: Counting objects: 100% (12/12), done.\u001b[K\n",
+            "remote: Compressing objects: 100% (12/12), done.\u001b[K\n",
+            "remote: Total 79 (delta 3), reused 0 (delta 0), pack-reused 67\u001b[K\n",
+            "Unpacking objects: 100% (79/79), done.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "%cd {repo}"
+      ],
+      "metadata": {
+        "id": "yEl1sCVdJUnO",
+        "outputId": "4c776b1d-4c89-41f7-e362-0f9b0e81aa3b",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "/content/assignment2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "%ls"
+      ],
+      "metadata": {
+        "id": "3ZWD0WokJ7q3",
+        "outputId": "1ac9d3d4-d257-47f5-afb5-5ed857b62f1c",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "BatchNormalization.ipynb     frameworkpython              README.md\n",
+            "collect_submission.ipynb     FullyConnectedNets_2.ipynb   requirements.txt\n",
+            "collectSubmission.sh         FullyConnectedNets.ipynb     start_ipython_osx.sh\n",
+            "ConvolutionalNetworks.ipynb  makepdf.py                   TensorFlow.ipynb\n",
+            "\u001b[0m\u001b[01;34mcs231n\u001b[0m/                      Network_Visualization.ipynb\n",
+            "Dropout.ipynb                PyTorch.ipynb\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!git status"
+      ],
+      "metadata": {
+        "id": "BHLUy3wYJ8mq",
+        "outputId": "7ef44792-15ff-4b98-d4dc-014cebf5455b",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "On branch main\n",
+            "Your branch is up to date with 'origin/main'.\n",
+            "\n",
+            "nothing to commit, working tree clean\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "3c-KxAXRKOa5"
       },
       "execution_count": null,
       "outputs": []
@@ -57,8 +169,7 @@
       "version": "3.7.3"
     },
     "colab": {
-      "provenance": [],
-      "toc_visible": true
+      "provenance": []
     }
   },
   "nbformat": 4,
